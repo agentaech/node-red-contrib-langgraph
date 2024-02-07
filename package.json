@@ -1,0 +1,30 @@
+{
+  "name": "node-red-contrib-langgraph",
+  "version": "0.0.1",
+  "description": "A Node-RED node package that provides a method to use LangGraph from the LangChain team. ",
+  "main": "langgraph.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agentaech/node-red-contrib-langgraph.git"
+  },
+  "keywords": [
+    "langchain",
+    "langgraph",
+    "llm",
+    "chatgpt",
+    "openai"
+  ],
+  "author": "Agent Aech (Steven Moon)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agentaech/node-red-contrib-langgraph/issues"
+  },
+  "homepage": "https://github.com/agentaech/node-red-contrib-langgraph#readme",
+  "dependencies": {
+    "@langchain/langgraph": "^0.0.3",
+    "node-red": "^3.1.4"
+  }
+}

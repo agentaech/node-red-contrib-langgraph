@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    RED.nodes.registerType('langgraph', {
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+            options: {value:"", required:true}
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "file.png",
+        label: function() {
+            return this.name || "langgraph";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="langgraph">
+    <div class="form-row">
+        <label for="node-input-options"><i class="icon-tag"></i> Options</label>
+        <input type="text" id="node-input-options" placeholder="Options" style="width:70%;">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="langgraph">
+    <p>This node lets you create LangGraphs visually using the LangGraph JS library.</p>
+</script>
